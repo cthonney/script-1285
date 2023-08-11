@@ -21,12 +21,6 @@ if [[ "$confirmation" != "y" ]]; then
   read GITHUB_USERNAME
 fi
 
-# Vérifier que le dossier fullstack-challenges existe
-if [ ! -d "~/code/$GITHUB_USERNAME/fullstack-challenges" ]; then
-  echo "Le dossier 'fullstack-challenges' n'a pas été trouvé. Assurez-vous d'être dans le répertoire correct et réessayez."
-  exit 1
-fi
-
 # Les commandes suivantes
 cd ~/code/$GITHUB_USERNAME
 cp -r fullstack-challenges wrong-fullstack-challenges
