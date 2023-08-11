@@ -7,3 +7,5 @@ Exécutez la commande suivante dans votre terminal:
 La commande suivante se fait sous supervision d'un Teacher:
 
 ```rsync -av --exclude='.git*' --exclude='*.md' --include='00-Setup/**' --include='01-Ruby/**' --include='02-OOP/01-OO-Basics/**' --include='02-OOP/02-OO-Advanced/**' --exclude='*' --dry-run ~/code/$GITHUB_USERNAME/wrong-fullstack-challenges/ ~/code/$GITHUB_USERNAME/fullstack-challenges/```
+
+Le code des exercices Cookbook, Food Delivery, Schema Design & SQL( First Day SQL devront être copier manuellement )
