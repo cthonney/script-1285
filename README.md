@@ -14,5 +14,10 @@ Ces commandes se font sous supervision d'un Teacher
 export GITHUB_USERNAME=`gh api user | jq -r '.login'`
 ```
 ```
-rsync -av --exclude='*' --exclude='*.git*' --exclude='*.md' --include='00-Setup/**' --include='01-Ruby/**' --include='02-OOP/01-OO-Basics/**' --include='02-OOP/02-OO-Advanced/**' ~/code/$GITHUB_USERNAME/wrong-fullstack-challenges/ ~/code/$GITHUB_USERNAME/fullstack-challenges/
+rsync -avn --exclude='*.git' --exclude='*.md'   ~/code/$GITHUB_USERNAME/wrong-fullstack-challenges/00-Setup ~/code/$GITHUB_USERNAME/fullstack-challenges/00-Setup
+
+```
+```
+rsync -avn --exclude='*.git' --exclude='*.md'  ~/code/$GITHUB_USERNAME/wrong-fullstack-challenges/01-Ruby ~/code/$GITHUB_USERNAME/fullstack-challenges/01-Ruby
+
 ```
