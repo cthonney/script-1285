@@ -22,4 +22,6 @@ rsync -avn --exclude='*.git' --exclude='*.md' --exclude='*.yml' --exclude='Rakef
 
 ```
 
+
+
 ## Pour les exercices OOP et DB, il faudra copier votre code manuellement 
