@@ -21,3 +21,5 @@ rsync -avn --exclude='*.git' --exclude='*.md' --exclude='*.yml' --exclude='Rakef
 rsync -avn --exclude='*.git' --exclude='*.md' --exclude='*.yml' --exclude='Rakefile' --exclude='*spec' ~/code/$GITHUB_USERNAME/wrong-fullstack-challenges/01-Ruby ~/code/$GITHUB_USERNAME/fullstack-challenges/01-Ruby
 
 ```
+
+## Pour les exercices OOP et DB, il faudra copier votre code manuellement 
